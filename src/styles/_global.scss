@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Johnston100-Hairline";
+    src: url("./fonts/Johnston100-Hairline.woff2") format("woff2"),
+      url("./fonts/Johnston100-Hairline.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Johnston100-Light";
+    src: url("./fonts/Johnston100-Light.woff2") format("woff2"),
+      url("./fonts/Johnston100-Light.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Johnston100-Medium";
+    src: url("./fonts/Johnston100-Medium.woff2") format("woff2"),
+      url("./fonts/Johnston100-Medium.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Johnston100-Regular";
+    src: url("./fonts/Johnston100-Regular.woff2") format("woff2"),
+      url("./fonts/Johnston100-Regular.woff") format("woff");
+  }
+  
+  /*
+   * Font sizes
+   * --------------------------------------------------
+   */
+  
+  html,
+  body {
+    font-family: "Johnston100", Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+    font-family: "Johnston100-Regular", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-family: "Johnston100-Regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  p {
+    font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  a {
+    font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  strong {
+      font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+  }
+  
+  span {
+      font-weight: 500;
+  }
+  
+  /*
+   * Header
+   * --------------------------------------------------
+   */
+
+   
