@@ -3,13 +3,9 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Github',
-    href: 'https://github.com/carbon-design-system/gatsby-theme-carbon',
-  },
-  {
-    title: 'Carbon Design System',
-    href: 'https://react.carbondesignsystem.com',
-  },
+    title: 'Tfl Digital Blog',
+    href: 'https://blog.tfl.gov.uk',
+  }
 ];
 
 // shouldOpenNewTabs: true if outbound links should open in a new tab
