@@ -72,10 +72,16 @@
    * --------------------------------------------------
    */
 
-   header {
-  background-color: #ffffff !important;
-  border-bottom: none !important;
-  height: 56px !important;
-}  
+//    header {
+//   background-color: #ffffff !important;
+//   border-bottom: none !important;
+//   height: 56px !important;
+// }  
 
-   
+.bx--side-nav__navigation {
+  border-radius: 6px;
+}
+
+.container {
+  background-color: white;
+}

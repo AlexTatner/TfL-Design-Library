@@ -36,14 +36,14 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Banner component</h1>;
+const BannerText = () => <h1>TfL Design Library</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
   FirstCallout: (
     <HomepageCallout
-      backgroundColor="#030303"
-      color="white"
+      backgroundColor="#ffffff"
+      color="black"
       leftText={FirstLeftText}
       rightText={FirstRightText}
     />
