@@ -86,7 +86,9 @@
 }
 
 .bx--side-nav__link-text {
-  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif !important;
+  font-size: 18px !important;
+  color: #03071C !important;
 }
 
 a.bx--side-nav__link--current > span {
@@ -100,7 +102,7 @@ li.bx--side-nav__item {
 
 
 li.bx--side-nav__menu-item {
-  padding-top: 24px;
+  padding-top: 24px !important;
 }
 
 a.bx--side-nav__link--current::before {
@@ -112,15 +114,15 @@ a.bx--side-nav__link[aria-current='page'] {
 }
 
 .bx--side-nav__item--active .bx--side-nav__submenu-title {
-  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif !important;
   font-size: 18px;
   color: #0019AB !important;
   font-weight: 200 !important;
 }
 
 .bx--side-nav.bx--side-nav--website--light a.bx--side-nav__link > .bx--side-nav__link-text {
-  font-size: 18px;
-  color: #03071C;
+  font-size: 18px !important;
+  color: #03071C !important;
 }
 
 .container--homepage {
@@ -131,6 +133,23 @@ a.bx--side-nav__link[aria-current='page'] {
   font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #03071C;
+}
+
+.bx--side-nav__navigation {
+  padding-top: $spacing-05;
+  background-color: #ffffff;
+}
+
+.bx--side-nav__item:not(.bx--side-nav__item--active):hover > .bx--side-nav__submenu, .bx--side-nav__menu[role='menu'] a.bx--side-nav__link[role='menuitem']:not(.bx--side-nav__link--current):not([aria-current='page']):hover, .bx--side-nav__item:not(.bx--side-nav__item--active):hover > .bx--side-nav__link {
+  background-color: #ffffff;
+}
+
+.bx--side-nav .bx--side-nav__item .bx--side-nav__submenu[aria-expanded='true'] {
+  background-color: #ffffff;
+}
+
+.bx--side-nav .bx--side-nav__item .bx--side-nav__submenu[aria-expanded='true']:hover {
+  background-color: #ffffff;
 }
 
 // Background colours
