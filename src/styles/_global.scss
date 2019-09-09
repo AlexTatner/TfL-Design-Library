@@ -71,17 +71,6 @@
    * Header
    * --------------------------------------------------
    */
-
-//    header {
-//   background-color: #ffffff !important;
-//   border-bottom: none !important;
-//   height: 56px !important;
-// }  
-
-.bx--side-nav__navigation {
-  // border-radius: 6px;
-}
-
 .container {
   background-color: white;
 }
@@ -96,7 +85,7 @@ a.bx--side-nav__link--current > span {
 }
 
 .bx--side-nav__item {
-  margin-top: 5px;
+  margin-top: 24px;
 }
 
 a.bx--side-nav__link--current::before {
@@ -109,15 +98,23 @@ a.bx--side-nav__link[aria-current='page'] {
 
 .bx--side-nav__item--active .bx--side-nav__submenu-title {
   font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   color: #0019AB !important;
   font-weight: 200 !important;
 }
 
 .bx--side-nav.bx--side-nav--website--light a.bx--side-nav__link > .bx--side-nav__link-text {
+  font-size: 18px;
   color: #03071C;
 }
 
 .container--homepage {
+  color: #03071C;
+}
+
+.bx--side-nav__submenu-title {
+  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   color: #03071C;
 }
 

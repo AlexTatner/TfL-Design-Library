@@ -14,6 +14,14 @@
   pages:
     - title: Colour
       path: /elements/colour
+- title: Patterns
+  pages:
+    - title: Forms
+      path: /patterns/forms
+    - title: Buttons
+      path: /patterns/Buttons
+    - title: Tooltip
+      path: /patterns/tooltip
 - title: Guides
   pages:
     - title: Configuration
