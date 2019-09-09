@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        iconPath: './src/images/roundel.svg'
+        iconPath: './src/images/roundel_white.svg'
       },
     },
   ],

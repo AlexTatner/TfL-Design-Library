@@ -9,7 +9,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('Z:/Code/TfL-Design-Library/node_modules/gatsby-theme-carbon/gatsby-browser.js'),
-      options: {"plugins":[],"iconPath":"./src/images/roundel.svg"},
+      options: {"plugins":[],"iconPath":"./src/images/roundel_white.svg"},
     },{
       plugin: require('Z:/Code/TfL-Design-Library/gatsby-browser.js'),
       options: {"plugins":[]},
