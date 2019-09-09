@@ -9,9 +9,9 @@
 header.header {
   transition: top $duration--fast-02;
   background-color: white !important;
-  border-bottom: 1px solid black;
+  border-bottom: none;
   z-index: z('floating');
-  border-radius: 6px;
+  // border-radius: 6px;
 }
 
 .header :global(.bx--header__name) {

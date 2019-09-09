@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
+    title: 'TfL Design Library',
+    description: 'This is where we put our awesome design stuff',
     keywords: 'gatsby,theme,carbon',
   },
   plugins: ['gatsby-theme-carbon'],

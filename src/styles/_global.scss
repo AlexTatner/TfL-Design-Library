@@ -79,7 +79,7 @@
 // }  
 
 .bx--side-nav__navigation {
-  border-radius: 6px;
+  // border-radius: 6px;
 }
 
 .container {
@@ -114,5 +114,9 @@ a.bx--side-nav__link[aria-current='page'] {
 }
 
 .bx--side-nav.bx--side-nav--website--light a.bx--side-nav__link > .bx--side-nav__link-text {
+  color: #03071C;
+}
+
+.container--homepage {
   color: #03071C;
 }

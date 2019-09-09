@@ -6,11 +6,13 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "dev:clean": "gatsby clean && gatsby develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "heroku-postbuild": "gatsby build"
   },
   "dependencies": {
     "gatsby": "^2.13.39",
     "gatsby-theme-carbon": "^1.6.1",
+    "heroku": "^7.29.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
