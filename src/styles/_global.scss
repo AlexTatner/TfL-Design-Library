@@ -91,7 +91,7 @@
 }
 
 a.bx--side-nav__link--current > span {
-  color: #0019A8 !important;
+  color: #0019AB !important;
   font-weight: 200 !important;
 }
 
@@ -100,7 +100,7 @@ a.bx--side-nav__link--current > span {
 }
 
 a.bx--side-nav__link--current::before {
-  background: #0019A8 !important;
+  background: #0019AB !important;
 }
 
 a.bx--side-nav__link[aria-current='page'] {
@@ -109,7 +109,7 @@ a.bx--side-nav__link[aria-current='page'] {
 
 .bx--side-nav__item--active .bx--side-nav__submenu-title {
   font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
-  color: #0019A8 !important;
+  color: #0019AB !important;
   font-weight: 200 !important;
 }
 
@@ -121,6 +121,112 @@ a.bx--side-nav__link[aria-current='page'] {
   color: #03071C;
 }
 
-.backgroundBeckBlue {
-  background-color: red !important;
+// Background colours
+
+.background--beckBlue {
+  background-color: #0019AB;
+}
+
+.background--johnstonBlack {
+  background-color: #03071C;
+}
+
+.background--grey90 {
+  background-color: #637282;
+}
+
+.background--grey70 {
+  background-color: #86909E;
+}
+
+.background--grey50 {
+  background-color: #C1C8D2;
+}
+
+.background--grey30 {
+  background-color: #E1E4E8;
+}
+
+.background--grey20 {
+  background-color: #F2F4F5;
+}
+
+.background--grey10 {
+  background-color: #F7F9FA;
+}
+
+.background--black {
+  background-color: #000000;
+}
+
+.background--white {
+  background-color: #FFFFFF;
+}
+
+.background--safetyRed {
+  background-color: #DC241F;
+}
+
+.background--safetyRedLight {
+  background-color: #FBE9E8;
+}
+
+.background--successGreen {
+  background-color: #00A95D;
+}
+
+.background--successGreenLight {
+  background-color: #C0F4DC;
+}
+
+.background--warningYellow {
+  background-color: #FAB928;
+}
+
+.background--warningYellowLight {
+  background-color: #FDEBCE;
+}
+
+.background--bakerloo {
+  background-color: #B26300;
+}
+
+.background--central {
+  background-color: #DC241F;
+}
+
+.background--circle {
+  background-color: #FFC80A;
+}
+
+.background--district {
+  background-color: #007D32;
+}
+
+.background--hammersmithCity {
+  background-color: #F589A6;
+}
+
+.background--jubilee {
+  background-color: #838D93;
+}
+
+.background--metropolitan {
+  background-color: #9B0058;
+}
+
+.background--northern {
+  background-color: #000000;
+}
+
+.background--piccadilly {
+  background-color: #0019A8;
+}
+
+.background--victoria {
+  background-color: #039BE5;
+}
+
+.background--waterlooCity {
+  background-color: #76D0BD;
 }
