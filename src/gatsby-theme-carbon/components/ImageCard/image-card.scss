@@ -11,15 +11,21 @@
 }
 
 .#{$prefix}--image-card__title {
-  @include carbon--type-style('productive-heading-03');
+  // @include carbon--type-style('productive-heading-03');
+  font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   text-decoration: none;
   color: $text-04;
-  position: relative;
+  position: absolute;
   z-index: 1;
+  bottom: 2.5rem;
+  left: 1rem;
 }
 
 .#{$prefix}--image-card__subtitle {
-  @include carbon--type-style('heading-01');
+  // @include carbon--type-style('heading-01');
+  font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
   color: $text-04;
