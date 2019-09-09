@@ -31,36 +31,46 @@
   body {
     font-family: "Johnston100", Helvetica, Arial, sans-serif;
   }
+
+  #page-title {
+    font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
+    font-size: 42px !important;
+  }
   
   h1 {
     font-family: "Johnston100-Regular", Helvetica, Arial, sans-serif;
-    font-size: 28px;
+    font-size: 28px !important;
   }
   
   h2 {
     font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 24px !important;
   }
   
   h3 {
     font-family: "Johnston100-Regular", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
+  }
+
+  h4 {
+    font-family: "Johnston100-Regular", Helvetica, Arial, sans-serif;
+    font-size: 18px !important;
   }
   
   p {
     font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
   }
   
   a {
     font-family: "Johnston100-Light", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
     text-decoration: underline;
   }
   
   strong {
       font-family: "Johnston100-Medium", Helvetica, Arial, sans-serif;
-      font-weight: 200;
+      font-weight: 200 !important;
   }
   
   span {
