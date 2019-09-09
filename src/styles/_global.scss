@@ -94,8 +94,13 @@ a.bx--side-nav__link--current > span {
   font-weight: 200 !important;
 }
 
-.bx--side-nav__item {
+li.bx--side-nav__item {
   margin-top: 24px;
+}
+
+
+li.bx--side-nav__menu-item {
+  padding-top: 24px;
 }
 
 a.bx--side-nav__link--current::before {

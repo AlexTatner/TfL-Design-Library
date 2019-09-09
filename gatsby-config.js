@@ -5,4 +5,12 @@ module.exports = {
     keywords: 'gatsby,theme,carbon',
   },
   plugins: ['gatsby-theme-carbon'],
+  plugins: [
+    {
+      resolve: 'gatsby-theme-carbon',
+      options: {
+        iconPath: './src/images/roundel.svg'
+      },
+    },
+  ],
 };

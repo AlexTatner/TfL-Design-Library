@@ -6,13 +6,13 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('Z:/Code/TfL-Design-Library/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Carbon Design Gatsby Theme","short_name":"Gatsby Theme Carbon","start_url":"/","background_color":"#ffffff","theme_color":"#0062ff","display":"browser","icon":"Z:\\Code\\TfL-Design-Library\\node_modules\\gatsby-theme-carbon\\src\\images\\favicon.png"},
+      options: {"plugins":[],"name":"Carbon Design Gatsby Theme","short_name":"Gatsby Theme Carbon","start_url":"/","background_color":"#ffffff","theme_color":"#0062ff","display":"browser","icon":"Z:\\Code\\TfL-Design-Library\\src\\images\\roundel.svg"},
     },{
       plugin: require('Z:/Code/TfL-Design-Library/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       plugin: require('Z:/Code/TfL-Design-Library/node_modules/gatsby-theme-carbon/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"iconPath":"./src/images/roundel.svg"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

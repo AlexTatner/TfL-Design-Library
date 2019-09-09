@@ -9,10 +9,10 @@
                 <g id="roundel" transform="translate(16.000000, 16.000000)">
                     <g>
                         <g id="Group" transform="translate(4.000000, 0.000000)">
-                            <circle id="Oval" fill="#0019A8" cx="16" cy="16" r="16"></circle>
+                            <circle id="Oval" fill="#0019AB" cx="16" cy="16" r="16"></circle>
                             <circle id="Oval-Copy" fill="#FFFFFF" cx="16" cy="16" r="10"></circle>
                         </g>
-                        <rect id="Rectangle" fill="#0019A8" x="0" y="13" width="40" height="6"></rect>
+                        <rect id="Rectangle" fill="#0019AB" x="0" y="13" width="40" height="6"></rect>
                     </g>
                 </g>
             </g>
