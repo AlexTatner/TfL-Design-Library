@@ -1,12 +1,7 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 import {
-  footer,
-  grid,
-  nav,
-  listItem,
   logo,
-  content,
 } from './Footer/Footer.module.scss';
 
 const Content = () => (
